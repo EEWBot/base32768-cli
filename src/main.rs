@@ -34,7 +34,7 @@ fn main() {
         let buffer = String::from_utf8(buffer).expect("Failed to read as UTF-8 string");
 
         let decoded =
-            base32768::decode(&buffer).expect("Failed to decode input");
+            base32768::decode(buffer.trim()).expect("Failed to decode input");
 
         stdout()
             .lock()
