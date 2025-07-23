@@ -1,0 +1,8 @@
+[package]
+name = "base32768"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+base32768 = { git = "https://github.com/EEWBot/base32768-rs", commit = "d2d456a2accd1fe6e58d9b60d04a08bfde0024b0" }
+clap = { version = "4.5.36", features = ["derive"] }
