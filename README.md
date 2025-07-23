@@ -1,6 +1,6 @@
-# base65536-cli
+# base32768-cli
 
 ```
-cargo intall --git https://github.com/EEWBot/base65536-cli
+cargo intall --git https://github.com/EEWBot/base32768-cli
 ```
 
